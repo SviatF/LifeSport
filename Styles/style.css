@@ -1,0 +1,265 @@
+@import url(../Styles/nullptr.css);
+
+
+@font-face {
+	font-family: 'HarlowSolidItalic';
+	src: url('../fonts/HARLOWSI/HARLOWSI.eot');
+	src: local('☺'), url('../fonts/HARLOWSI/HARLOWSI.woff') format('woff'), url('../fonts/HARLOWSI/HARLOWSI.ttf') format('truetype'), url('../fonts/HARLOWSI/HARLOWSI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans MT Ext Condensed';
+    src: url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.eot');
+    src: url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.woff2') format('woff2'),
+        url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.woff') format('woff'),
+        url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.ttf') format('truetype'),
+        url('../fonts/GillSansMT-ExtraCondensedBold/GillSansMT-ExtraCondensedBold_1.svg#GillSansMTExtraCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monotype Corsiva';
+    src: url('../fonts/MTCORSIVA/MonotypeCorsiva.eot');
+    src: url('../fonts/MTCORSIVA/MonotypeCorsiva.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MTCORSIVA/MonotypeCorsiva.woff2') format('woff2'),
+        url('../fonts/MTCORSIVA/MonotypeCorsiva.woff') format('woff'),
+        url('../fonts/MTCORSIVA/MonotypeCorsiva.ttf') format('truetype'),
+        url('../fonts/MTCORSIVA/MonotypeCorsiva.svg#MonotypeCorsiva') format('svg');
+    font-weight: normal;
+    font-style: italic;
+   
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0px auto;
+  max-width: 160px; 
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn-5 {
+  text-align: center;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.btn-5:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px; 
+}
+.btn-pd{
+    padding: 10%;
+}
+body{
+    width: 100%;
+    background-color: #111;
+    height: auto;
+   
+}
+
+.hd-100vh{
+     background: url(../Images/sunset-5560658.jpg) no-repeat ;
+    
+     -moz-background-size: 100%; /* Firefox 3.6+ */
+     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+     -o-background-size: 100%; /* Opera 9.6+ */
+     -ms-background-size:100%;
+     background-size:100%;
+    
+    height: 100vh;
+}
+content{
+     
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+     -moz- box-shadow: 0 10px 25px 5px rgba(0,0,0,0.4);
+      -webkit- box-shadow: 0 10px 25px 5px rgba(0,0,0,0.4);
+      -o- box-shadow: 0 10px 25px 5px rgba(0,0,0,0.4);
+     -ms-box-shadow: 0 10px 25px 5px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 25px 5px rgba(0,0,0,0.4);
+    height: auto;
+}
+content div p {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    font-family:sans-serif;
+}
+content .cnt{
+    height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: 0px auto;
+    color: white;
+    padding: 10%;
+}
+content  h2{
+    font-size: 4vw;
+    padding: 2% 0;
+    text-align: center;
+    font-family: 'HarlowSolidItalic';
+}
+#main{
+    background: linear-gradient(-35deg, #000, #000, #261303, #000);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite; /* Black */
+
+}
+#match{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+     background-color: #000;
+}
+#match h2{
+    margin: 0 0 2% 0;
+}
+#nws{
+  height: auto;
+    padding: 7vw 2vw;
+}
+#nws .flx-box-news{
+    width: 100%;
+    margin: 0px auto;
+     display: inline-flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    
+    
+    
+}
+#nws h2{
+    color: #fff;
+     
+    
+}
+#nws .row-flx-new{
+    
+    height:550px;
+    width: 320px;
+    background: #3d3d3d;
+    margin-bottom: 20px;
+    margin: 0.1vw;
+}
+#fan .bd1-spn{
+    
+   padding: 4% 0 ;
+   
+    
+}
+#adm .bd1{
+    
+    height: 70vh;
+}
+#adm .bd2{
+    height: 70vh;
+}
+.row-flx-new-img img{
+     width: 320px;
+    height: 235px;
+}
+.row-flx-new-txt{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    height: 100%;
+}
+.row-flx-new h3{
+    
+    font-size: 25px;
+    font-weight: 600;
+    text-align: start;
+    height: 10%;
+    overflow: hidden;
+    
+}
+.row-flx-new p{
+    text-align: start;
+    font-size: 15px;
+    margin-top:20px; 
+    height: 35%; 
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+
+
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 2vw;
+    color: black;
+	background: #efefef;
+	border: 0.1vw solid #dddddd;
+}
+.table td {
+	border: 0.1vw solid #dddddd;
+	padding: 2vw;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media screen and (max-width:712px){
+     .hd-100vh{
+        height: 10vh;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .hd-100vh{
+        height: 30vh;
+    }
+    content{
+        width: 100%;
+    }
+    content div p{
+        font-size:3vw;
+    }
+}
+@media screen and (min-width:769px){
+    
+      .hd-100vh{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:1068px){
+    
+          .hd-100vh{
+        height: 100vh;
+    }
+}
