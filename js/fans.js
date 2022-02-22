@@ -23,7 +23,7 @@ if(txt.value==''){
     alert('Enter Some Text in Textarea');
 }
     else{
-        divNewApeal.className="bd2 cnt";
+divNewApeal.className="bd2 cnt";
 dDivNewApeal.className="bd1-spn";
 hr.className="ft-hr";
 pDivNewApeal.textContent=txt.value;
